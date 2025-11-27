@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aiirial:block/raw_blei_block"
+    }
+  }
+}
