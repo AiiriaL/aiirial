@@ -23,8 +23,9 @@ public class ModBlocks {
 
 
 
-    // Blöcke erstellen + Eigenschaften
+    // Blöcke erstellen + Eigenschaften /////////////////////////////
 
+    // Block anfang
     public static final DeferredBlock<Block> BLEI_BLOCK = BLOCKS.register(
             "blei_block",
             registryName -> new Block(
@@ -35,6 +36,11 @@ public class ModBlocks {
                             .sound(SoundType.IRON)
             )
     );
+            // Block Item
+    public static final DeferredItem<BlockItem> BLEI_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("blei_block", BLEI_BLOCK);
+    // Block Ende
+
+    // Block Anfang
     public static final DeferredBlock<Block> RAW_GALENIT_BLOCK = BLOCKS.register(
             "raw_galenit_block",
             registryName -> new Block(
@@ -45,9 +51,14 @@ public class ModBlocks {
                             .sound(SoundType.IRON)
             )
     );
-
-    public static final DeferredItem<BlockItem> BLEI_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("blei_block", BLEI_BLOCK);
+        // Block Item
     public static final DeferredItem<BlockItem> RAW_GALENIT_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("raw_galenit_block", RAW_GALENIT_BLOCK);
+    // Block Ende
+
+
+
+
+
 
     // Muss im Mod-Konstruktor aufgerufen werden
     public static void register(IEventBus eventBus) {
