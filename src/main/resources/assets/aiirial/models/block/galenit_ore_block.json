@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "aiirial:block/blei_block"
+    "all": "aiirial:block/galenit_ore_block"
   }
 }
