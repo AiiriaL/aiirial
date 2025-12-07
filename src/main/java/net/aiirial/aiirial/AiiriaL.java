@@ -67,6 +67,7 @@ public class AiiriaL {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_GALENIT);
             event.accept(ModItems.BLEI_INGOT);
+            event.accept(ModItems.BLEI_NUGGET);
         }
     }
 

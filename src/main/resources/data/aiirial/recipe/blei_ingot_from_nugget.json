@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "aiirial:blei_nugget"
+    ]
+  },
+  "result": {
+    "id": "aiirial:blei_ingot",
+    "count": 1
+  }
+}

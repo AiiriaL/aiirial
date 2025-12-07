@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLEI_BLOCK);
                         output.accept(ModBlocks.RAW_GALENIT_BLOCK);
                         output.accept(ModBlocks.GALENIT_ORE_BLOCK);
+                        output.accept(ModItems.BLEI_NUGGET);
 
                     })).build());
 
