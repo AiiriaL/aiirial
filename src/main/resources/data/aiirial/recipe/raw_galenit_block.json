@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "aiirial:raw_galenit"
+    ]
+  },
+  "result": {
+    "id": "aiirial:raw_galenit_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "aiirial:blei_block"
+    ]
+  ],
+  "result": {
+    "id": "aiirial:blei_ingot",
+    "count": 9
+  }
+}

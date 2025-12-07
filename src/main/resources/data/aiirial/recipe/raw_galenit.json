@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "aiirial:raw_galenit_block"
+    ]
+  ],
+  "result": {
+    "id": "aiirial:raw_galenit",
+    "count": 9
+  }
+}
