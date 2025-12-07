@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GALENIT_ORE_BLOCK);
                         output.accept(ModItems.BLEI_NUGGET);
                         output.accept(ModItems.BLEI_KUGEL);
+                        // Platzhalter für später
+                        output.accept(ModItems.MUSKETEITEM);
 
                     })).build());
 

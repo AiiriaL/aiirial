@@ -1,9 +1,6 @@
 package net.aiirial.aiirial.item;
 
-import com.jcraft.jorbis.Block;
 import net.aiirial.aiirial.AiiriaL;
-import net.aiirial.aiirial.block.ModBlocks;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -23,6 +20,9 @@ public class ModItems{
     public static final DeferredItem<Item> BLEI_INGOT = ITEMS.registerItem("blei_ingot", Item::new);
     public static final DeferredItem<Item> BLEI_NUGGET = ITEMS.registerItem("blei_nugget", Item::new);
     public static final DeferredItem<Item> BLEI_KUGEL = ITEMS.registerItem("blei_kugel", Item::new);
+
+    // Platzhalter für später
+    public static final DeferredItem<Item> MUSKETEITEM = ITEMS.registerItem("musketeitem", Item::new);
 
 
     // EVENT
