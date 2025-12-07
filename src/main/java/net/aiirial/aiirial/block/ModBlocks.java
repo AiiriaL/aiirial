@@ -34,7 +34,9 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of()
                             .setId(ResourceKey.create(Registries.BLOCK, registryName))
                             .destroyTime(2.0f)
+                            .strength(4f)
                             .explosionResistance(6.0f)
+                            .requiresCorrectToolForDrops()
                             .sound(SoundType.IRON)
             )
     );
@@ -49,6 +51,8 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of()
                             .setId(ResourceKey.create(Registries.BLOCK, registryName))
                             .destroyTime(2.0f)
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
                             .explosionResistance(6.0f)
                             .sound(SoundType.STONE)
             )
@@ -64,7 +68,9 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of()
                             .setId(ResourceKey.create(Registries.BLOCK, registryName))
                             .destroyTime(2.0f)
+                            .strength(4f)
                             .explosionResistance(6.0f)
+                            .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)
             )
     );
