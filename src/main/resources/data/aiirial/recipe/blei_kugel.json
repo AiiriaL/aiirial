@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "aiirial:blei_ingot"
+    ],
+  "result": {
+    "id": "aiirial:blei_kugel",
+    "count": 1
+  }
+}

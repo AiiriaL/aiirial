@@ -22,6 +22,7 @@ public class ModItems{
     public static final DeferredItem<Item> RAW_GALENIT = ITEMS.registerItem("raw_galenit", Item::new);
     public static final DeferredItem<Item> BLEI_INGOT = ITEMS.registerItem("blei_ingot", Item::new);
     public static final DeferredItem<Item> BLEI_NUGGET = ITEMS.registerItem("blei_nugget", Item::new);
+    public static final DeferredItem<Item> BLEI_KUGEL = ITEMS.registerItem("blei_kugel", Item::new);
 
 
     // EVENT
